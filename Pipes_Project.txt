@@ -1,9 +1,0 @@
-Pipe programming 
-  
- 
-(20 points) Design a program using ordinary pipes in which one process sends a string message to a second process, and the second process reverses the case of each character and modify each character to the next one in the message and sends it back to the first process. For example, if the first process sends the message “Abcd”, the second process will return “bCDE”. Characters ‘z’ and ‘Z’ won’t be changed. This will require using two pipes, one for sending the original message from the first to the second process, and the other for sending the modified message from the second back to the first process. Write this program using LINIX pipes.   
- 
-Some other examples: 
-“Am Dx”: the second process will return “bN eY”. 
-“wxYZ”: the second process will return “XYzz”. (Characters ‘z’ and ‘Z’ won’t be changed) “Hello World”: the second process will return “iFMMP xPSME”. 
-  
